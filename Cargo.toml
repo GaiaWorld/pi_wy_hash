@@ -1,0 +1,9 @@
+[package]
+name = "pi_wy_hash"
+version = "0.1.0"
+authors = ["suncy <suncy@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+pi_wy_rng = {path="../pi_wy_rng"}
+rand_core = "0.6"
